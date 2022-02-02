@@ -1,0 +1,46 @@
+/* No CSS */ /*# sourceMappingURL=style.css.map */
+
+
+.sidebar {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sidebar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar ul li {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.sidebar ul li #close-btn {
+  position: absolute;
+  right: 25px;
+}
+
+.sidebar ul li a:hover {
+  color: white;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 35px;
+  margin-left: 60px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.close {
+  -webkit-transform: translate(0, -100px);
+  transform: translate(0, -100px);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
